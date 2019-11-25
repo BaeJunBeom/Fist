@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:text="무   엇   을  해  야   하   나"
+            android:layout_gravity="center"
+            android:textStyle="italic"
+            android:textSize="35dp"/>
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="400dp"
+            android:layout_marginTop="-55dp"
+            android:src="@drawable/qwes"/>
+
+        <Button
+            android:id="@+id/btn6"
+            android:layout_width="match_parent"
+            android:layout_height="170dp"
+            android:background="@color/colorPrimary"
+            android:text="다음 페이지 !!"
+            android:textStyle="italic"
+            android:onClick="onClick"
+            android:layout_marginTop="-60dp"
+            android:textSize="50dp"/>
+
+
+    </LinearLayout>
